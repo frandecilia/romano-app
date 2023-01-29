@@ -1,0 +1,113 @@
+/*
+///////          ///////
+////   encabezado   ////
+///////          ///////         
+*/
+
+/* estilos para el contenedor del navbar */
+.navContainer{
+    background-color: #333;
+    position: relative;
+    z-index: 5;
+}
+
+/* estilos para el contenido del navbar */
+.navContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* estilos para el logo y los links del navbar */
+.logo h2, .nav a{
+    color: #fff;
+}
+
+/* estilos exclusivos para el logo */
+.logo h2{
+    font: normal 4rem 'Cookie', cursive;
+}
+
+.logo a{
+    text-decoration: none; 
+}
+    
+
+/* clase para hacer algunos textos en amarillo */
+.yellowText{
+    color: #e0ac1c;
+}
+
+/* estilos para los links del navbar */
+.nav a{
+    text-decoration: none;
+    font-size: 2.2rem;
+    padding: 3rem;
+    display: block;
+    transition: color .3s ease-in-out;
+    text-align: center;
+}
+
+/* alinea los textos de diferente manera */
+@media(min-width: 768px){
+    .nav a{
+	text-align: left;
+    }
+}
+
+/* estilos para el navbar */
+.nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 8.4rem 4rem;
+    background-color: #333;
+    animation: desplazamiento .5s ease-in-out;
+}
+
+@media(min-width: 768px){
+    .nav {
+	width: 45rem;
+    }
+}
+
+
+/* permite que el texto se vuelva amarillo a la hora de pasar el mouse */
+.nav a:hover{
+    color: #e0ac1c;
+}
+
+/* cambia el cursor cuando se pasa el mouse por encima del botón x */
+.btnCerrar:hover{
+    cursor: pointer;
+}
+
+.headerLogos{
+    display: flex;
+    align-items: center;
+}
+
+/* estilos para la hamburguesa que abre el navbar */
+.hamburguesa{
+    font-size: 2em;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #fff;
+}
+
+/* cambia el cursor cuando se pasa el mouse por encima del botón x */
+.hamburguesa:hover{
+    cursor: pointer;
+}
+
+.fa-cart-shopping{
+    color: white;
+    font-size: 2em;
+}
+
+.fa-cart-shopping:hover{
+    cursor: pointer;
+}
