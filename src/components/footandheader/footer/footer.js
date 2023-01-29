@@ -1,10 +1,11 @@
 import './footer.css'
+import logo from "../../../assets/img/logo.png"
 
 const Footer= () => {
     return(
         <footer className="footerDistributed">
 			<div className="footerLeft">
-                <img src={"https://github.com/frandecilia/romano-app/blob/main/src/assets/img/logo.png?raw=true"} alt=""/>
+                <img src={logo} alt=""/>
 				<h3><span className="yellowText"> Romano Desings</span></h3>
 				<p className="footerLinks">
 					<a href="index.html">Inicio</a>

@@ -3,8 +3,10 @@ import '../footandheader/footer/footer.css'
 import '../footandheader/header/header.css'
 import Header from "../footandheader/header/header";
 import Footer from "../footandheader/footer/footer";
-import nosotros1 from "../img/nosotros1.jpg";
-
+/*Importo las imagenes que utilizo*/
+import nosotros1 from "../../assets/img/nosotros1.jpg"
+import nosotros2 from "../../assets/img/nosotros2.jpg"
+import nosotros3 from "../../assets/img/nosotros3.jpg"
 
 
 const Main= () => {
@@ -24,11 +26,11 @@ const Main= () => {
             </div>
             <div className="welcomeImages">
                 <div className="image1">
-                    <img src={'https://github.com/frandecilia/romano-app/blob/main/src/assets/img/nosotros1.jpg?raw=true'} alt=""/>
+                    <img src={nosotros1} alt=""/>
                 </div>
                 <div className="images2">
-                    <img src={'https://github.com/frandecilia/romano-app/blob/main/src/assets/img/nosotros2.jpg?raw=true'} alt=""/>
-                    <img src={'https://github.com/frandecilia/romano-app/blob/main/src/assets/img/nosotros3.jpg?raw=true'} alt=""/>
+                    <img src={nosotros2} alt=""/>
+                    <img src={nosotros3} alt=""/>
                 </div>
             </div>
         </div>

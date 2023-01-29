@@ -1,4 +1,5 @@
 import './header.css'
+import fondoheader from "../../../assets/img/fondoheader.jpg"
 
 
 const Header= () =>{
@@ -27,7 +28,7 @@ const Header= () =>{
                     <h2>Bienvenido!</h2>
                 <a href="src/components/products/products.js" className="btn borders">Productos</a>
                 </div>
-                <img className="imagenFondo" src={'https://github.com/frandecilia/romano-app/blob/main/src/assets/img/fondoheader.jpg?raw=true'} alt="un living con mucha luz"/>
+                <img className="imagenFondo" src={fondoheader} alt="un living con mucha luz"/>
             </div>
         </div>
     </header>
