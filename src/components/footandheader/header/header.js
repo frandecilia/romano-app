@@ -1,6 +1,6 @@
 import './header.css'
 import fondoheader from "../../../assets/img/fondoheader.jpg"
-
+import { Link } from 'react-router-dom'
 
 const Header= () =>{
     return(
@@ -26,6 +26,9 @@ const Header= () =>{
             <div className="headerContainer">
                 <div className="headerText">
                     <h2>Bienvenido!</h2>
+                <Link to='/products' className="btn borders"> 
+
+                </Link>    
                 <a href="src/components/products/products.js" className="btn borders">Productos</a>
                 </div>
                 <img className="imagenFondo" src={fondoheader} alt="un living con mucha luz"/>
