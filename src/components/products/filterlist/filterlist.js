@@ -1,5 +1,9 @@
-export const FilterList=({categories, filterCategory}) =>{
+import '../productlist/productlist.css'
+
+
+const FilterList=({categories, filterCategory}) =>{
     return(
+        <div className="filtros">
         <div className="categorias">
             <h2>Categorias</h2>
             <ul>
@@ -15,5 +19,9 @@ export const FilterList=({categories, filterCategory}) =>{
             ))}
             </ul>
         </div>
+        </div>
     )
     }
+
+export default FilterList;
+
