@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7f9e566a.css",
+    "main.js": "/static/js/main.890daab4.js",
+    "static/media/nosotros2.jpg": "/static/media/nosotros2.26bfccb0dad44016d451.jpg",
+    "static/media/nosotros1.jpg": "/static/media/nosotros1.e91e69d95e0eb19f20f5.jpg",
+    "static/media/fondoheader.jpg": "/static/media/fondoheader.c41d40df57a000508e5b.jpg",
+    "static/media/silla5.jpg": "/static/media/silla5.463542dcb63224352f92.jpg",
+    "static/media/escritorio1.jpg": "/static/media/escritorio1.24cb495d3a0e4f1d2a1f.jpg",
+    "static/media/escritorio11.jpg": "/static/media/escritorio11.a9de08a1b374e7bf4402.jpg",
+    "static/media/nosotros3.jpg": "/static/media/nosotros3.1d2fc4c1899b7442744c.jpg",
+    "static/media/mesa4.jpg": "/static/media/mesa4.f501cceede49274c2936.jpg",
+    "static/media/soporteimpresora.jpg": "/static/media/soporteimpresora.c2880f2c0cb4fab6a4d6.jpg",
+    "static/media/mesa1.jpg": "/static/media/mesa1.cbcf5531c9970c1f939e.jpg",
+    "static/media/logo.png": "/static/media/logo.2584e430337c557a498c.png",
+    "static/media/silla6.jpg": "/static/media/silla6.efd5f256fa45ad32250d.jpg",
+    "static/media/repisa7.jpg": "/static/media/repisa7.349973f51a46b4800b31.jpg",
+    "index.html": "/index.html",
+    "main.7f9e566a.css.map": "/static/css/main.7f9e566a.css.map",
+    "main.890daab4.js.map": "/static/js/main.890daab4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f9e566a.css",
+    "static/js/main.890daab4.js"
+  ]
+}
