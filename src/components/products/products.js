@@ -38,10 +38,10 @@ const Products= () => {
 
                 </div>
                 <div className="barra-contenedor" >
-                            <form className="barra-form">
+                    {/*<form className="barra-form">
                                 <input className="input-barra" type="text" placeholder="Buscar..."/>
                                 <button className="btn-barra" type="submit">Buscar</button>
-                            </form>
+                            </form> */}
                 </div>
                 <FilterList categories={categories} filterCategory={filterCategory}/>
                 <ProductList
