@@ -1,5 +1,7 @@
 import Main from "./components/main/main";
 import Products from "./components/products/products";
+import Contact from "./components/contact/contact";
+import About from "./components/about/about";
 
 import {
   BrowserRouter,
@@ -14,6 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element= {<Main />}/>
         <Route path="/products" element= {<Products />}/>
+        <Route path="/contact" element= {<Contact />}/>
+        <Route path="/about" element= {<About />}/>
       </Routes>
     </BrowserRouter>
   );

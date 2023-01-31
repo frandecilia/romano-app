@@ -53,7 +53,7 @@ const Modal= (props) => {
             }
                            
                 <div className="btnfunctions">
-                    <button className='pagar-btn'>Pagar</button>
+                    <button onClick={onClearCart} className='pagar-btn'>Pagar</button>
                     <button className="modal-close" onClick={onClose}>Continuar Comprando</button>
                     <div className='precio-total'>
                             <span >Total:   </span>
