@@ -1,6 +1,3 @@
-Click aqui!
-https://frandecilia.github.io/romano-app/
-
 
 # Getting Started with Create React App
 
