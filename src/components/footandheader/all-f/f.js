@@ -1,16 +1,18 @@
 import './f.css'
+import logo from '../../../assets/img/logo.png'
+import { Link } from 'react-router-dom'
 
 const AllF= () => {
     return(
         <footer className="footerDistributed">
 			    <div className="footerLeft">
-                    <img src="/public\assets\img\logo.png" alt=""/>
+                    <img src={logo} alt=""/>
 				    <h3><span className="yellowText"> Romano Desings</span></h3>
 				    <p className="footerLinks">
-					    <a href="/index.html">Inicio</a>
-					    <a href="/views/about.html">Sobre nosotros</a>
-					    <a href="/views/products.html">Productos</a>
-					    <a href="/views/contact.html">Contacto</a>
+					<Link to='/'>Inicio</Link>
+            <Link to='/products'>Productos</Link>
+            <Link to='/about'>Sobre nosotros</Link>
+            <Link to='/contact'>Contacto</Link>
 				    </p>
 				    <p className="footerCompanyName">© 2022 Romano Desings Pvt. Ltd.</p>
 			    </div>
