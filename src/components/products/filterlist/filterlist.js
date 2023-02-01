@@ -1,4 +1,5 @@
 import '../productlist/productlist.css'
+import './filterlist.css'
 
 
 const FilterList=({categories, filterCategory}) =>{
